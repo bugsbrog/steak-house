@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Hannah Brog">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Bootstrap</title>
+</head>
+
+<!-- <style>
+        img {
+            width: 300px;
+        }
+    </style> -->
+
+<body>
+    <section class="text-center bg-light text-secondary">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 d-flex align-items-center
+                    justify-content-around col-md-3">
+                    <p class="m-0">Winner of the best travelers Inn and
+                        Restaurant <em>Twice Over!</em>
+                    </p>
+                </div>
+                <div class="col-8 d-flex justify-content-around ml-3 py-3 col-md-3 flex-grow-1">
+                    <img class="img w-100" src="img/logo.png" alt="Steak House Logo">
+                </div>
+                <div class="col-8 d-flex align-items-center
+                    justify-content-around col-md-3" id="location">
+                    <p class="m-0">Just up Logan Canyon on Highway&nbsp;89
+                        Logan, UT 84321<br>
+                        Call ahead for reservations (435) 555-5555</p>
+                </div><!-- col -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- content -->
+
+    <img src="img/riverside_inn.jpg" alt="Riverside Inn" class="img-fluid w-100">
+    <nav id="navbar-site" class="navbar navbar-light navbar-expand-sm">
+        <div class="d-flex justify-content-between w-100">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav"
+                aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button><!-- navbar-toggler -->
+
+            <div class="collapse navbar-collapse justify-content-center" id="myTogglerNav">
+                <div class="navbar-nav py-2">
+                    <a class="nav-item nav-link" href="#">Home</a>
+                    <a class="nav-item nav-link" href="#" data-toggle="modal"
+                        data-target="#myModal">Menu</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
+                    <a class="nav-item nav-link" href="#location">Location</a>
+                    <a class="nav-item nav-link" href="#specials">Specials</a>
+                </div><!-- navbar-nav -->
+            </div><!-- collapse-->
+        </div><!-- container -->
+    </nav><!-- navbar -->
+
+    <div class="bg-light text-secondary">
+        <div class="row justify-content-sm-center">
+            <section class="col-sm-7 order-md-1 pt-4">
+                <h2 class="text-center pb-4">Great Food</h2>
+                <p class="px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, natus pariatur,
+                    sapiente ducimus beatae sed, veritatis voluptatum blanditiis suscipit debitis nobis soluta ratione
+                    exercitationem officia harum qui odio? Voluptates, obcaecati. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Suscipit, fugiat officia illum perferendis voluptatibus assumenda odit minima
+                    deleniti quasi animi inventore consectetur dolor temporibus iste, necessitatibus et.</p>
+            </section><!-- col -->
+            <img class="img-fluid pt-3 rounded-circle" src="img/tasty_burger.jpg" alt="Tasty Burger">
+        </div><!-- row -->
+
+        <div class="row my-md-5 justify-content-sm-center">
+            <div class="col-sm-7">
+                <h2 class="text-center pb-4">Wedding Services</h2>
+                <p class="px-5">Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Accusantium, natus pariatur,
+                    sapiente ducimus beatae sed, veritatis voluptatum
+                    blanditiis suscipit debitis nobis soluta ratione
+                    exercitationem officia harum qui odio? Voluptates,
+                    obcaecati. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Suscipit, fugiat officia illum
+                    perferendis voluptatibus assumenda odit minima
+                    deleniti quasi animi inventore consectetur dolor
+                    temporibus iste, necessitatibus et.</p>
+            </div><!-- col -->
+            <img class="img-fluid rounded-circle" src="img/small_wedding_cake.jpg" alt="Small Wedding Cake">
+        </div><!-- row -->
+
+        <div class="row justify-content-sm-center">
+            <section class="col-sm-7 order-md-1 pt-4">
+                <h2 class="text-center pb-4">Lodging</h2>
+                <p class="px-5">Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Accusantium, natus pariatur,
+                    sapiente ducimus beatae sed, veritatis voluptatum
+                    blanditiis suscipit debitis nobis soluta ratione
+                    exercitationem officia harum qui odio? Voluptates,
+                    obcaecati. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Suscipit, fugiat officia illum
+                    perferendis voluptatibus assumenda odit minima
+                    deleniti quasi animi inventore consectetur dolor
+                    temporibus iste, necessitatibus et.</p>
+            </section><!-- col -->
+            <img class="img-fluid pt-3 rounded-circle pb-3" src="img/hotel_dinning_room.jpg" alt="Hotel Dining Room">
+        </div><!-- row -->
+    </div><!-- container -->
+
+    <div class="container text-secondary" id="specials">
+        <div class="row">
+            <div class="col d-flex align-items-sm-start pl-5">
+                <img class="img-fluid w-50 py-4" src="img/daily_special.png" alt="Daily Special">
+            </div><!-- col -->
+            <div class="col text-center pt-md-5 mt-md-5">
+                <h3>Special of the Day</h3>
+                <hr>
+                <p>Get a free appetizer with the purchase of two meals!</p>
+            </div><!-- col -->
+        </div><!-- row -->
+    </div><!-- container -->
+
+    <section class="bg-light p-5" id="contact">
+        <div class="container">
+            <p class="lead pb-3 text-secondary">Questions? Do you need catering? Or just want to drop us a line? We'll
+                do our best to get back to you ASAP!</p>
+            <div class="row">
+                <div class="col">
+
+                    <form>
+                        <div class="form-group row">
+                            <div class="form-group col">
+                                <input class="form-control" type="text" id="name" placeholder="Your Name">
+                            </div><!-- form-group col (name)-->
+
+                            <div class="form-group col">
+                                <input class="form-control" type="email" id="email" placeholder="Your Email">
+                            </div><!-- form-group col (email)-->
+                        </div><!-- form-group row -->
+
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        </div><!-- form-group -->
+
+                        <div class="form-group row">
+                            <div class="col d-flex justify-content-end pt-3">
+                                <button class="btn btn-primary btn-" type="submit">Send us a line >></button>
+                            </div><!-- col (button) -->
+                        </div><!-- form-group row -->
+                    </form>
+
+                </div><!-- col -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- bg-light -->
+    <nav id="navbar-site" class="navbar navbar-light navbar-expand-sm">
+        <div class="d-flex justify-content-between w-100">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav"
+                aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button><!-- navbar-toggler -->
+
+            <div class="collapse navbar-collapse" id="myTogglerNav">
+                <div class="navbar-nav py-2">
+                    <a class="nav-item nav-link" href="#">Home</a>
+                    <a class="nav-item nav-link" href="#" data-toggle="modal" data-target="#myModal">Menu</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
+                    <a class="nav-item nav-link" href="#location">Location</a>
+                    <a class="nav-item nav-link" href="#specials">Specials</a>
+                </div><!-- navbar-nav -->
+            </div><!-- collapse-->
+
+            <a class="navbar-brand text-secondary" href="#">
+                BATC Web Development</a>
+
+        </div><!-- d-flex -->
+    </nav><!-- navbar -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+<!-- Modal -->
+<div class="modal fade text-secondary" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content bg-light">
+            <div class="modal-header justify-content-center">
+                <h1 class="modal-title" id="exampleModalLabel">Menu</h1>
+            </div><!-- modal-header -->
+            <div class="modal-body">
+                <table class="table text-secondary table-borderless p-0 table-responsive">
+                    <thead>
+
+                        <tr>
+                            <th scope="col">
+                                <h3>Burgers</h3>
+                            </th>
+                            <th scope="col">
+                                <h3>Appetizers</h3>
+                            </th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td class="p-0">
+                                <h4>Mushroom Burger</h4>
+                            </td>
+                            <td class="p-0">
+                                <h4>Chicken Tenders</h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$6.99</b>
+                                </p>
+                            </td>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$4.99</b>
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="p-0">
+                                <h4>Good old Burger</h4>
+                            </td>
+                            <td class="p-0">
+                                <h4>Onion Blossom</h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$6.99</b>
+                                </p>
+                            </td>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$6.99</b>
+                            </td>
+                        </tr>
+
+                        <tr class="d-flex justify-content-end">
+                            <th scope="col">
+                                <h2>Dinner</h2>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td class="p-0">
+                                <h4>Full Rack of Ribs</h4>
+                            </td>
+                            <td class="p-0">
+                                <h4>Steak</h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$11.99</b>
+                                </p>
+                            </td>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$12.99</b>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="p-0">
+                                <h4>Tacos</h4>
+                            </td>
+                            <td class="p-0">
+                                <h4>Quesadillas</h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$6.99</b>
+                                </p>
+                            </td>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$7.99</b>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="p-0">
+                                <h4>Chicken Sandwich</h4>
+                            </td>
+                            <td class="p-0">
+                                <h4>Big Mouth Burger</h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$8.99</b>
+                                </p>
+                            </td>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$9.99</b>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="col">
+                                <h3>Drinks</h3>
+                            </th>
+                            <th scope="col">
+                                <h3>Desserts</h3>
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <td class="p-0">
+                                <h4>Blue Lagoon</h4>
+                            </td>
+                            <td class="p-0">
+                                <h4>Cheesecake</h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$2.99</b>
+                                </p>
+                            </td>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$4.99</b>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="p-0">
+                                <h4>Sprite</h4>
+                            </td>
+                            <td class="p-0">
+                                <h4>Chocolate Cookie</h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$5.99</b>
+                                </p>
+                            </td>
+                            <td class="p-0">
+                                <p>Lorem ipsum dolor sit amet,<br>
+                                    consecteteur adipisicing elit. Fusce sed.
+                                    <b>$6.99</b>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div><!-- modal-body -->
+
+            <button type="button" class="close pb-4" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">Home</span>
+            </button>
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
+</html>
